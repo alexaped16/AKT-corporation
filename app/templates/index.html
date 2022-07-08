@@ -4,6 +4,81 @@
 {% block content %}
 
 
+<div class="big-image">
+    <div class="overlay">
+      <h1>Welcome to AKT Corporation</h1>
+      <p> Manufacturer of Highway Reflectors and Traffic Signal Lenses</p>
+    </div>
+</div>
+
+
+
+<div class="grid">
+
+    <section class=" grad-neutral mt50">
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+            <div class="slide">
+                <img src="/static/akt/No18CenterDelineator/ClearAKTNo.18CenterMountDelineator.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+            </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/akt/No18CenterDelineator/5AmberAKTNo.18CenterMountDelineator.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+            </div>
+            </li>
+
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/akt/No18CenterDelineator/GreenAKTNo.18CenterMountDelineator.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+            </div>
+            </li>
+
+
+        </section>
+
+ 
+
+        <section class="grad-neutral">
+            <div class="container mt0">
+                <h1 class="product-description">Featured Product</h1>
+                <h1 class="mb30">No. 18 Center Delineator</h1>
+                <img class="mr100" id="nav-logo" src="/static/product-made-in-america.png" height="50%" width="50%">
+                <a href="{{ url_for('no18CenterMountDelineator') }}" class="btn btn-outline mt20">View Product</a> 
+            </div>
+            
+            
+                
+                <ul class="mt100">
+                   
+                        <li>Exceeds all federal delineator photometric standards.</li>
+                        <li>Thousands of six-point prisms givesuperior
+                            reflectability, providing an extra margin of safety.</li>
+                        <li>Available in plastic back or aluminum backing.</li>
+                        <li>Available in Amber, clear, red, green, blue</li>
+              
+            
+                </ul>
+        </section>
+    </div>
+
+
 <!-- MISSION STATEMENT -->
 <section class="about-us sec-padd">
 
@@ -22,6 +97,55 @@
             </div>
         </div>
     </section>
+
+</div>
+
+<div class="image-effect-container flex-row">
+    <div class="image-effect-wrapper">
+        <div class="box w-content">
+        <img src="https://source.unsplash.com/900x900/?dark
+    " alt="Jenny of Oldstones">
+        <div class="frame">
+            <h2>Expertise, Technology, and Quality</h2>
+        </div>
+        </div>
+    </div>
+
+    <div class="image-effect-wrapper">
+        <div class="box w-content">
+        <img src="https://source.unsplash.com/900x900/?business
+    " alt="Jenny of Oldstones">
+        <div class="frame">
+            <h2>Industry Leaders</h2>
+        </div>
+        </div>
+    </div>
+
+    <div class="image-effect-wrapper">
+        <div class="box w-content">
+        <img src="https://source.unsplash.com/900x900/?solid
+    " alt="Jenny of Oldstones">
+        <div class="frame">
+            <h2>Since 1949</h2>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- SPONSORSHIPS -->
+
+<section class="text--center">
+    <div class="about-container">
+    <h3 class="capital-title">Proud Members Of</h3>
+    <p>AKT Corporation is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership</p>
+        <div class="container flex-row">
+            <img src="/static/memberships/memberships-03.png" height="20%" width="20%">
+            <img src="/static/memberships/memberships-04.png" height="20%" width="20%">
+            <img src="/static/memberships/memberships2-01.png" height="20%" width="20%">
+            <img src="/static/memberships/memberships2-02.png" height="20%" width="20%">
+        </div>
+    </div>
+</section>
 
 
 
