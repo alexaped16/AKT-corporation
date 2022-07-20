@@ -18,7 +18,7 @@
                         <div>
                             <a href="#" target="_blank" class="fa fa-linkedin-square" aria-hidden="true"></a>
                             <h2>Liam Edgecomb</h2>
-                            <h3>CEO</h3>
+                            <h3>Product Specialist</h3>
                         </div>
                     </div>
                 
@@ -43,26 +43,32 @@
 
 
     <div class="contact-container">  
-        <form target="_blank" id="contact" action="https://formsubmit.co/alexaped16@gmail.com" method="POST">
+        <form target="_blank" id="contact" action="https://formsubmit.co/37b2d7dbd2ca1a714bc40ff1c11adbcc" method="POST">
             <h3>Request Information</h3>
             <h4>Contact our sales team for a custom quote on products</h4>
             <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                <input placeholder="Your name" type="text" name="Name" tabindex="1" required autofocus>
             </fieldset>
             <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                <input placeholder="Your Email Address" type="email" name="Email" tabindex="2" required>
             </fieldset>
             <fieldset>
-                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                <input placeholder="Your Phone Number" type="tel" name="Phone" tabindex="3" required>
             </fieldset>
             <fieldset>
-                <input placeholder="Your Company" type="url" tabindex="4" required>
+                <input placeholder="Your Company" type="url" name="Company url" tabindex="4" required>
             </fieldset>
             <fieldset>
-                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                <textarea placeholder="Type your message here...." name="Message" tabindex="5" required></textarea>
             </fieldset>
             <fieldset>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+            <fieldset>
+                <input name="_next" type="hidden" value="https://akt-corporation.herokuapp.com/thankyou.html" >
+            </fieldset>
+            <fieldset>
+                <input type="hidden" name="_subject" value="New submission!" >
             </fieldset>
         </form>
     </div>
