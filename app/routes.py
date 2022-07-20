@@ -69,6 +69,14 @@ def concrete_barrier_wall_marker():
 def butyl_pads():
     return render_template('/akt/butyl_pads.html')
 
+@app.route('/akt/JD_1')
+def JD_1():
+    return render_template('/akt/JD_1.html')
+
+@app.route('/akt/pavement_marker_921')
+def pavement_marker_921():
+    return render_template('/akt/pavement_marker_921.html')
+
 
 
 # REFLECTORS 
@@ -84,3 +92,5 @@ def EBM3x4():
 @app.route('/reflectors/GRD-S')
 def GRD_S():
     return render_template('/reflectors/GRD-S.html')
+
+

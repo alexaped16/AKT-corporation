@@ -326,6 +326,12 @@ color: #878787;
   background-color: whitesmoke;
 }
 
+.grid-3{
+  display: grid; 
+  grid-template-columns: 3fr;
+  background-color: whitesmoke; 
+}
+
 #whitesmoke{
   background-color: whitesmoke;
 }
@@ -1445,14 +1451,14 @@ text-align: center;
 
 #process h1 {
   font-size: 3rem;
-  font-family: 'Merriweather', sans-serif; 
+  font-family: 'PT Sans', sans-serif; 
   letter-spacing: 0.2rem;
   margin-bottom: 1rem;
 }
 
 #process h2 {
   font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: .5rem;
   margin-bottom: 5rem;
   padding-left: 5rem; 
@@ -1619,6 +1625,50 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight:400;
+}
+
+.big-image-oldworld{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  opacity: 70%; 
+  background-position: 50% 50%;
+  background-image: url("/static/pexels/pexels-flickr-149387.jpg");
+}
+
+.oldworld-container{
+  background-color: #F25D27;
+  padding: 50px; 
+}
+
+.overlay-oldworld{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 200px;
+  right: 100px;
+  color:white; 
+  display: flex;
+  align-items:flex-end;
+  justify-content:left;
+  flex-direction: column;
+}
+
+.overlay-oldworld h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin: 0 0 5px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 900;
+}
+
+.overlay-oldworld p {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  margin-bottom: 30px; 
 }
 
 .big-image-divisions {
@@ -1933,6 +1983,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
 
 .mission-title{
   font-size: 5em;
+  margin-bottom: 3rem; 
   font-weight: 800;
   color: black; 
   line-height: 1em;
@@ -2218,7 +2269,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   padding-bottom: 10px;
   /* overwrite default style */
   opacity: 1;
-  font-weight: 700;
+  font-weight: 800;
   /* <h1> text is not visible - it is used only as a container for the ::after element */
   color: transparent;
   overflow: hidden;
@@ -2335,15 +2386,15 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
 }
 
 #intro-animation{
-  background: white;     
-  color: black;   
+  background: black;      
+  color: white;     
 }
 
 .hero {
   box-sizing: border-box;
   display: flex;
   min-height: 100vh;
-  padding: 4rem;
+  padding: 6rem;
   justify-content: center;
   flex-direction: column;
   position: relative;
@@ -2359,7 +2410,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   top: 0;
   width: 50%;
   height: 100%;
-  background: rgba(123, 123, 123, 0.336);   
+  background: white;       
   -webkit-animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
           animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
@@ -2373,7 +2424,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #EEEEEE;
+  background: white; 
   -webkit-animation: untransform normal 1 1.5625s 0.3125s cubic-bezier(0.33, 1, 0.68, 1) forwards;
           animation: untransform normal 1 1.5625s 0.3125s cubic-bezier(0.33, 1, 0.68, 1) forwards;
   z-index: -1;
@@ -2417,6 +2468,21 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
     opacity: 1;
   }
 }
+
+
+/* TEST  */
+
+.left{
+  padding: 90px; 
+}
+
+.align-center{
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+
 
 
 
