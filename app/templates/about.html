@@ -3,21 +3,30 @@
 
 {% block content %}
 
+
+<section id="intro-animation" class="hero">
+    <h2 class="hero__title">
+        <span>
+            About 
+            <img class="" src="/static/AKT-logo-02.png" alt="" height=20% width=20%/>
+
+        </span>
+    </h2>
+    <p class="hero__copy">
+        AKT Corporation was founded in 1978 as a manufacturer and supplier of delineators, guardrail
+            delineators, barrier wall markers, and traffic signal lenses. AKT ships its products across the
+            globe. Majority of our products are used by Department of Transportations and highway contractors.</p>
+
+</section>
+
 <span id="about">
-    
-    <section class="neutral-primary ">
-        <div class="about-container">
-        <div class="col-3 text--center">
-            <img src="/static/akt/_567_guardrail_delineator_/567GuardrailDelineator.jpeg" alt="" class="details-img--ball"/>
+
+    <div class="big-image-artisans-3">
+        <div class="overlay-3">
+          <h1>Artisans in </h1>
+          <h1>Manufacturing</h1>
         </div>
-        <div class="col-7 details font">
-            <h3>About AKT Corporation</h3>
-            <p>AKT Corporation was founded in 1978 as a manufacturer and supplier of delineators, guardrail
-                delineators, barrier wall markers, and traffic signal lenses. AKT ships its products across the
-                globe. Majority of our products are used by Department of Transportations and highway contractors.</p>
-        </div>
-        </div>
-    </section>
+    </div>
     
     <section class="section--dark text-center pinside80">
         <div class="about-container font">
@@ -45,19 +54,22 @@
         </div>
     </section>
 
-    <section class="bg-default text--center pinside80 font">
-        <h3>See how it all comes together</h3>
-        <a href="{{ url_for('sister_companies') }}" class="btn">Our Divisions</a>
-        </div>
-    </section>
 
-    <section class="grad-neutral text--center pinside80">
+
+
+    <section class=" pinside80">
         <div class="container font">
-        <h3 class="grad-heading" >Mission Statement</h3>
-        <p>The mission of Elgin Molded Plastics, Empco-Lite, and AKT Corporation is to fully satisfy the
+        <h3 class="mission-title" >Mission Statement</h3>
+        <p class="mission-statement">The mission of Elgin Molded Plastics, Empco-Lite, and AKT Corporation is to fully satisfy the
             expectations of our customers by producing the highest quality products on time, each and every
             time, through the use of effective teamwork, employee involvement, and a dedication to excellence
             in everything we do with a view of continuous improvement.</p>
+        </div>
+    </section>
+
+    <section class="bg-default text--center pinside80 font">
+        <h3>See how it all comes together</h3>
+        <a href="{{ url_for('sister_companies') }}" class="btn">Our Divisions</a>
         </div>
     </section>
 
@@ -67,6 +79,18 @@
         <a href="{{ url_for('process') }}" class="btn">Learn More</a>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
     
 </span>
   
