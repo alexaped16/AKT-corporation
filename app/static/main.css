@@ -35,7 +35,7 @@ display:inline-block;
 
 .navbar{
   background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0.4234068627450981) 58%, rgba(218,215,215,0.6306897759103641) 79%, rgba(242,93,39,0.8799894957983193) 98%);
+  background: linear-gradient(180deg, rgba(255,255,255,0.4234068627450981) 58%, rgba(218,215,215,0.6306897759103641) 79%, rgba(242,93,39,0.8799894957983193) 98%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -317,8 +317,7 @@ color: #878787;
     font-family: 'open-sans', sans-serif; 
   }
 
-
- /* PRODUCT LINE  */
+/* GRIDS */
 
 .grid-1fr{
   display: grid;
@@ -328,7 +327,7 @@ color: #878787;
 
 .grid-3{
   display: grid; 
-  grid-template-columns: 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: whitesmoke; 
 }
 
@@ -1439,29 +1438,24 @@ text-align: center;
 /*remove block and see change at bottom*/
 #process img {
   display: block;
-  width: 90%;
+  width: 100%;
   height: 100vh;
   object-fit: cover;
 }
 
 
   article {
-  padding: 0 2.5rem;
+  padding: 0 3.0rem;
 }
 
-#process h1 {
-  font-size: 3rem;
-  font-family: 'PT Sans', sans-serif; 
-  letter-spacing: 0.2rem;
-  margin-bottom: 1rem;
-}
+
 
 #process h2 {
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .5rem;
-  margin-bottom: 5rem;
-  padding-left: 5rem; 
+  margin-bottom: 2rem;
+  padding-left: 2rem; 
 }
 
 p{
@@ -1686,7 +1680,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url("/static/akt/_567_guardrail_delineator_/AKT567GuardrailDelineator.jpg");
+  background-image: url("/static/akt/_181gd/181-OK.jpg");
 }
 
 .overlay {
@@ -1925,7 +1919,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
 }
 
 
-/* Typing Demo */
+/* SEO KEY WORDS */
 
 
 #product-index-container {

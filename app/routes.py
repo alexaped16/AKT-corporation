@@ -29,13 +29,21 @@ def process():
 def sister_companies():
     return render_template('sister_companies.html')
 
+@app.route('/thanks')
+def thanks():
+    return render_template('thanks.html')
 
 
-#AKT
+
+# Guardrail Delineators 
 
 @app.route('/akt/traffic_signal_lenses')
 def traffic_signal_lenses():
     return render_template('/akt/traffic_signal_lenses.html')
+
+@app.route('/akt/c1001az')
+def c1001az():
+    return render_template('/akt/c1001az.html')
 
 @app.route('/akt/no18CenterMountDelineator')
 def no18CenterMountDelineator():
@@ -49,9 +57,7 @@ def guardrail_delineator():
 def guardrail_delineator_181():
     return render_template('/akt/181_guardrail_delineator.html')
 
-@app.route('/akt/aluminum_backer')
-def aluminum_backer():
-    return render_template('/akt/aluminum_backer.html')
+
 
 @app.route('/akt/bituminous_pavement_marker_adhesive')
 def bituminous_pavement_marker_adhesive():
@@ -79,7 +85,9 @@ def pavement_marker_921():
 
 
 
-# REFLECTORS 
+
+
+# emb series 
 
 @app.route('/reflectors/EBMT')
 def EBMT():
@@ -89,8 +97,69 @@ def EBMT():
 def EBM3x4():
     return render_template('/reflectors/EBM3x4.html')
 
-@app.route('/reflectors/GRD-S')
-def GRD_S():
-    return render_template('/reflectors/GRD-S.html')
+@app.route('/reflectors/EBM3x3')
+def EBM3x3():
+    return render_template('/reflectors/EBM3x3.html')
 
+@app.route('/reflectors/EBM3x8')
+def EBM3x8():
+    return render_template('/reflectors/EBM3x8.html')
+
+
+
+# GRD SERIES
+
+@app.route('/reflectors/GRD_S')
+def GRD_S():
+    return render_template('/reflectors/GRD_S.html')
+
+@app.route('/reflectors/GRD_C')
+def GRD_C():
+    return render_template('/reflectors/GRD_C.html')
+
+@app.route('/reflectors/GRD_H')
+def GRD_H():
+    return render_template('/reflectors/GRD_H.html')
+
+@app.route('/reflectors/GRD_ST')
+def GRD_ST():
+    return render_template('/reflectors/GRD_ST.html')
+
+@app.route('/reflectors/GRD_FLEX')
+def GRD_FLEX():
+    return render_template('/reflectors/GRD_FLEX.html')
+
+
+
+
+# reflective panels 
+
+@app.route('/reflectivepanels/rivetpanel18x18')
+def rivetpanel18x18():
+    return render_template('/reflectivepanels/rivetpanel18x18.html')
+
+@app.route('/reflectivepanels/rivetpanel5x11')
+def rivetpanel5x11():
+    return render_template('/reflectivepanels/rivetpanel5x11.html')
+
+@app.route('/reflectivepanels/aluminum4x15')
+def aluminum4x15():
+    return render_template('/reflectivepanels/aluminum4x15.html')
+
+@app.route('/reflectivepanels/panel3x12')
+def panel3x12():
+    return render_template('/reflectivepanels/panel3x12.html')
+
+@app.route('/reflectivepanels/square4x4')
+def square4x4():
+    return render_template('/reflectivepanels/square4x4.html')
+
+
+@app.route('/akt/WY_101285')
+def WY_101285():
+    return render_template('/akt/WY_101285.html')
+
+@app.route('/akt/aluminumangle4x4')
+def aluminumangle4x4():
+    return render_template('/akt/aluminumangle4x4.html')
 

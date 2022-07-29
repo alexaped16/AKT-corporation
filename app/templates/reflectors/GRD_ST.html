@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="grid bg-default">
+
+  <section class="mt50">
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+        <div class="slide">
+          <img src="/static/reflectors/GRD_ST/GRD-ST.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-6" class="prev">&#x2039;</label>
+          <label for="img-2" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+            <div class="slide">
+              <img src="/static/reflectors/GRD_ST/GRD-STAmber.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-1" class="prev">&#x2039;</label>
+          <label for="img-3" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+            <div class="slide">
+              <img src="/static/reflectors/GRD_ST/GRD-STClear.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-2" class="prev">&#x2039;</label>
+          <label for="img-4" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-4" />
+        <li class="slide-container">
+            <div class="slide">
+              <img src="/static/reflectors/GRD_ST/GRD-STClear1.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-3" class="prev">&#x2039;</label>
+          <label for="img-5" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+
+
+  </section>
+
+
+
+
+  <section class="text-right">
+    <div class="container mt0">
+    <h1 class="product-description">Product Description</h1>
+    <p class="model">GRD-ST</p>
+    <p class="part-number"></p>
+    <p class="specification">Specification:</p>
+      
+        <ul class="specifications">
+            <li>Made of high-impact polycarbonate. </li>
+            <li>Available in 3” or 4” wide and 10” or 27” tall. </li>
+            <li>Comes with two mounting holes. </li>
+            <li>Available with amber, white, red, blue, or green colored high-intensity reflective sheeting. </li>
+            <li>Available in one-sided and two-sided sheeting. </li>
+            
+        </ul>
+    </div>
+  </section>
+
+
+
+</div>
+
+
+{% endblock content %}
