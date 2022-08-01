@@ -11,6 +11,24 @@ html, body {
 }
 
 
+h1{
+  font-size: 3rem;
+  font-family: 'PT sans', sans-serif;  
+}
+
+h2{
+  font-size: 4rem; 
+}
+
+h3{
+  font-size: 2rem; 
+}
+
+p{
+  font-family: 'pt Sans', sans-serif;
+}
+
+
 
 
 /* navbar */
@@ -570,6 +588,24 @@ opacity: 60%;
   position: relative;
 }
 
+#trusted-hands-container{
+  background-color: rgba(0, 0, 0, 0.788); 
+  padding: 50px;
+  margin-bottom: 2rem;  
+}
+
+#trusted-hands-container h1{
+  font-size: 3rem;
+  font-family: 'PT sans', sans-serif;
+  color: white;   
+}
+
+#trusted-hands-container p{
+font-size: 1.3rem;
+color: white;
+font-weight: 500;   
+}
+
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -690,7 +726,7 @@ fieldset {
 .grid{
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    background-color: whitesmoke;  
+    background-color: white;   
 }
 
 .grid-background-none{
@@ -1628,7 +1664,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   background-size: cover;
   opacity: 70%; 
   background-position: 50% 50%;
-  background-image: url("/static/pexels/pexels-flickr-149387.jpg");
+  background-image: url("/static/pexels/pexels-adrien-olichon-2387793.jpg");
 }
 
 .oldworld-container{
@@ -2402,9 +2438,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6,
   position: absolute;
   right: -5%;
   top: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
-  background: white;       
+  background-image: url("/static/plant_pictures/IMG_7466_Fotor.jpg");        
   -webkit-animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
           animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }

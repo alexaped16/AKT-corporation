@@ -33,6 +33,14 @@ def sister_companies():
 def thanks():
     return render_template('thanks.html')
 
+@app.route('/termsofuse')
+def termsofuse():
+    return render_template('termsofuse.html')
+
+@app.route('/privacypolicy')
+def privacypolicy():
+    return render_template('privacypolicy.html')
+
 
 
 # Guardrail Delineators 
